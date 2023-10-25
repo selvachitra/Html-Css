@@ -1,0 +1,79 @@
+body {
+    /* margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;*/
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(45, 180, 151);
+    padding: 10px;
+}
+
+nav {
+    background-color: rgb(146, 14, 135);
+    display:grid;
+    place-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;  /*heading words kela from the underline*/
+    color: #000;
+    transition: 0.2s ease-in;
+    font-size: 20px;
+
+}
+
+nav ul a:hover {
+    background-color: rgb(75, 49, 104);
+    color: orangered;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+    grid-row-gap: 30px;
+}
+
+.item img {
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+    /*zoom alert the img thiz line*/
+}
+
+.item img:hover {
+    transform: scale(1.04);
+}
+
+.item h3 {
+    padding: 5px;
+    text-align: center;
+}
+
+.item button {
+    padding: 5px 30px;
+    border: none;
+    background-color: rgb(190, 24, 102);
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+}
+
+.item button:hover {
+    transform: scale(1.08);
+}
